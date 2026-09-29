@@ -43,3 +43,9 @@ print("Good service:",delivery_partner)
 homepage()
 
 print(__file__) # Built-in
+
+cart_prices=[500,300,1200,750]
+total_price=0
+for item in cart_prices:
+    total_price=total_price+item
+print(total_price)
